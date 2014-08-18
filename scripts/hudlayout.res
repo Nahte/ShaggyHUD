@@ -24,8 +24,8 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
+		"xpos"	"c-330"
+		"ypos"	"c-235"
 		"wide"	"f0"
 		"tall"	"480"
 	}
@@ -106,14 +106,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-70"	[$WIN32]
+		"ypos"			"c100"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"155"
 		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -509,21 +505,19 @@
 		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"GravityBook12"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"0 0 255 255"
+		"TeamRed"		"255 0 0 255"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"46 43 42 255"		[$WIN32]
+		"LocalBackgroundColor"	"255 255 255 255"	[$WIN32]
 	}
 
 	HudVehicle
@@ -1049,12 +1043,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c-30"	[$WIN32]
+		"ypos"			"c100"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}	

@@ -2405,6 +2405,15 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		GravityBook8
+		{
+			"1"
+			{
+				"name"		"Gravity-Book"
+				"tall"		"8"
+				"antialias"	"1"
+			}
+		}
 		GravityBook12
 		{
 			"1"
@@ -2500,6 +2509,15 @@ Scheme
 			{
 				"name"		"Gravity-Bold"
 				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		GravityBold8
+		{
+			"1"
+			{
+				"name"		"Gravity-Bold"
+				"tall"		"8"
 				"antialias" "1"
 			}
 		}

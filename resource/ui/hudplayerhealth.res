@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c75"
+		"xpos"			"c-233"
 		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
@@ -129,8 +129,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"c-200"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
