@@ -2494,12 +2494,22 @@ Scheme
 				"tall"		"40"
 				"antialias"	"1"
 			}
-		}GravityBook44
+		}
+		GravityBook44
 		{
 			"1"
 			{
 				"name"		"Gravity-Book"
 				"tall"		"44"
+				"antialias"	"1"
+			}
+		}
+		GravityBook64
+		{
+			"1"
+			{
+				"name"		"Gravity-Book"
+				"tall"		"64"
 				"antialias"	"1"
 			}
 		}
@@ -2653,6 +2663,15 @@ Scheme
 			{
 				"name"		"Gravity-Bold"
 				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		GravityBold64
+		{
+			"1"
+			{
+				"name"		"Gravity-Bold"
+				"tall"		"64"
 				"antialias" "1"
 			}
 		}
